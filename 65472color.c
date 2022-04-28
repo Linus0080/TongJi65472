@@ -32,6 +32,7 @@ int main() {
                 } 
             }
        }
+       printf("\033[0m");
        printf("\n\n");
     }
     return 0;
