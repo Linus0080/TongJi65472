@@ -11,7 +11,7 @@ int main() {
     int i,j;
     for (i = 0; i < 5; i++)
     {
-       for ( j = 0; j < 7; j++)
+       for (j = 0; j < 7; j++)
        {
            if (chart[i][j] != 0)
            {
