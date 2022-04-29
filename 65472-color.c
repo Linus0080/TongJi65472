@@ -5,15 +5,15 @@
 #include <locale.h>
 void block_r() {
     setlocale(LC_CTYPE, "");
-    wchar_t block = 0x2588;
+    wchar_t block = 0x25a0;
     printf("\033[0;31m");
-    wprintf(L"%2lc", block);
+    wprintf(L"%1lc", block);
 }
 void block_b() {
     setlocale(LC_CTYPE, "");
-    wchar_t block = 0x2588;
+    wchar_t block = 0x25a0;
     printf("\033[0;34m");
-    wprintf(L"%2lc", block);
+    wprintf(L"%1lc", block);
 }
 int main() {
     int chart[5][7] = {{1,1,1,1,1,1},{1,1,1,1,1},{1,1,1,1},{1,1,1,1,1,1,1},{1,1}};
@@ -35,7 +35,7 @@ int main() {
             }
        }
        printf("\033[0m");
-       printf("\n\n");
+       printf("\n");
     }
     return 0;
 }
