@@ -1,16 +1,5 @@
-fun printRed(str:String) {
-    println("\u001B[31m${str}\u001B[0m")
-}
-
-fun printBlue(str:String) {
-    println("\u001B[34m${str}\u001B[0m")
-}
-
 fun main() {
-    printRed("██████")
-    printBlue("█████")
-    printRed("████")
-    printBlue("███████")
-    printRed("██")
+    listOf(6, 5, 4, 7, 2).forEachIndexed { i, j ->
+        (0 until j).forEach { _ -> print(if (i % 2 == 0) "\uD83D\uDFE5" else "\uD83D\uDFE6") };println()
+    }
 }
-
