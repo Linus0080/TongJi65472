@@ -6,6 +6,10 @@
 
 用各种语言输出65472实心块，输出内容可适当变动，切合主题即可
 
+尽量不直接print，提倡用比较花的方法实现（当然你要直接print我也不拦你（望天
+
+关于这个梗的出处：参见 [这里](https://twitter.com/watson_westcity/status/1519131073413799936?s=21&t=VU4_DaGFVnpD0yScZzjNjQ)
+
 欢迎pr，玩得开心w
 
 最后祝上海和同济早日恢复owo
