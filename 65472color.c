@@ -1,3 +1,5 @@
+// C Implementation with color
+// Coded by linus0080
 #include <stdio.h>
 #include <wchar.h>
 #include <locale.h>
