@@ -24,7 +24,7 @@ Specifies the background colors to use, when the number of lines is
 greater than the number of colors, the colors are repeated.
 
 .EXAMPLE
-PS> Write-65472
+PS> ./65472-2.ps1
 #>
 [CmdletBinding()]
 param (
