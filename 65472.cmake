@@ -1,0 +1,10 @@
+function(Ji)
+    string(REPEAT ${ARGV0} ${ARGV1} LINE)
+    message(STATUS ${LINE})
+endfunction()
+
+Ji(🟥 6)
+Ji(🟦 5)
+Ji(🟥 4)
+Ji(🟦 7)
+Ji(🟥 2)
