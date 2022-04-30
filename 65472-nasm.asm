@@ -1,8 +1,8 @@
 section	.text
-  global _start
+	global	_start
   
 section	.data
-  msg db '65472'
+	msg	db '65472'
 
 _start:
 	mov	edx, 5
