@@ -1,0 +1,26 @@
+/space 10 def
+/size 50 def
+/colormode (red) def
+
+10 10 translate
+
+{ 2 7 4 5 6 } {
+    gsave
+        colormode (red) eq
+        { /colormode (blue) def 1 0 0 setrgbcolor }
+        { /colormode (red) def 0 0 1 setrgbcolor }
+        ifelse
+        {
+            newpath
+            0 0 moveto
+            0 size rlineto
+            size 0 rlineto
+            0 size neg rlineto
+            size neg 0 rlineto
+            closepath
+            fill
+            space size add 0 translate
+        } bind repeat
+    grestore
+    0 space size add translate
+} bind forall
