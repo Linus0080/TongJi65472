@@ -1,5 +1,6 @@
-1  rem "c64 (cbm basic v2) of 65472"
+1 rem "c64 (cbm basic v2) of 65472"
 10 poke 53281,0
+15 y=1
 20 x=x+1: y=1-y: if x>5 then end
 30 c=y*4+2
 40 poke 646,c
